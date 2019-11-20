@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "es6",
+    "moduleResolution": "node",
+    "declaration": true,
+    "declarationDir": "./types",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "strict": true,
+  },
+  "include": [
+    "./src/*.ts"
+  ]
+}

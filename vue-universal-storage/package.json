@@ -1,0 +1,16 @@
+{
+  "name": "vue-universal-storage",
+  "scripts": {
+    "build": "npm run compile && npm run declarations",
+    "compile": "rollup -c",
+    "declarations": "tsc --emitDeclarationOnly"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-object-assign": "latest",
+    "@types/node": "latest",
+    "rollup": "latest",
+    "rollup-plugin-buble": "^0.19.8",
+    "rollup-plugin-typescript": "latest",
+    "typescript": "latest"
+  }
+}
